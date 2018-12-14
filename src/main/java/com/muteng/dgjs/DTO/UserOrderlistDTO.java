@@ -1,0 +1,100 @@
+package com.muteng.dgjs.DTO;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class UserOrderlistDTO {
+	//user
+	private Long userid;
+    private String name;
+    private String loginname;
+    private Date birthday;
+    private String idcard;
+    private String nick;
+    private Integer usertype;
+    private String orderpoolstatus;
+    private Boolean sex;
+    private String education;
+    private String job;
+    private Double salary;
+    private String phone;
+    private String qq;
+    private String weixin;
+    private String introduce;
+    private Date createtime;
+    private Date updatetime;
+    private String minzu;
+    private String address;
+	private String touxiang;
+    private Long accessuserid;
+    private String islocal;
+    private Long acccompanyid;
+    private String isdeformity;
+    private String isstudent;
+	private String idcardimg;
+    private String yaoqingma;
+    private String inviter;
+    private Long channelid;
+    private Long account;
+    private Long fund;
+    private Integer loginstatus;
+    private String belongcity;
+    private String expectedworkcity;
+    private Boolean isvalidate;
+    private String os;
+    private String source;
+    private String subsource;
+    private String ip;
+    private String isinviter;
+    private Integer invitednumber;
+    private String clientid;
+    private String tattoo;
+    private String disability;
+    private String certificate;
+    private Long parentid;
+    private String provinceid;
+    private String cityid;
+    private String districtid;
+    private String townid;
+    
+    //orderlist
+   private Long orderlistid;
+   private Long orderid;
+   private Long supplierid;
+   private Long canceltemplateid;
+   private Long orderno;
+   private String ordertype;
+   private Long accessid;
+   private String accessname;
+   private Long productid;
+   private String productname;
+   private String status;
+   private String remarks;
+   private Date remarkstime;
+   private Date hiredate;
+   private Integer numberorder;
+   private Long orderplacerid;
+   private String orderplacer;
+   private Integer feedays;
+   private Integer amountcashed;
+   private String businesscontact;
+   private String financecontact;
+   private String drivercontact;
+   private Date interviewtime;
+   private Date interviewpasstime;
+   private Date returntime;
+   private Date resignationtime;
+   private Date prepaymenttime;
+   private Date actualtime;
+   private Integer actualamount;
+   private Integer monthaccounts;
+   private Integer balance;
+   private String mystatus;
+   private String appstatus;
+   private Integer processstatus;
+   private Long businessid;
+   private Date offerinteviewtime;
+   private Long schemeid;
+}
